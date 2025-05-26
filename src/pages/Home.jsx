@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import ServicesSection from '../components/ServicesSection';
 import CoreFeaturesSection from '../components/CoreFeaturesSection';
 import LatestServicesSection from '../components/LatestServicesSection';
+import CaseStudiesSection from '../components/CaseStudiesSection';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <ServicesSection/>
             <CoreFeaturesSection />
             <LatestServicesSection />
+            <CaseStudiesSection />
         </div>
     );
 };
