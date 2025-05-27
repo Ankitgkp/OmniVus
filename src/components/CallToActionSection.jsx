@@ -1,21 +1,21 @@
 import React from "react";
 
 const CallToActionSection = () => (
-    <section className="relative bg-blue-700 py-24 px-4 overflow-hidden opacity-90">
+    <section className="relative bg-blue-700 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <img
             src="https://i.postimg.cc/HxrsnJ5F/cta-bg.webp"
             alt="Call to Action Background"
             className="absolute inset-0 w-full h-full object-cover opacity-60 pointer-events-none select-none"
             aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-blue-700 opacity-80"></div>
-        <div className="relative max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between z-10">
-            <div className="text-white mb-10 md:mb-0">
-                <h5 className="uppercase tracking-widest font-semibold mb-3 text-white/80 text-lg">
+        <div className="absolute inset-0 bg-blue-700/80"></div>
+        <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
+            <div className="text-white text-center lg:text-left">
+                <h5 className="uppercase tracking-widest font-semibold mb-3 text-white/80 text-base sm:text-lg">
                     Call to Action
                 </h5>
-                <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
-                    Let’s Discuss With Us <br /> Your Estimate.
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+                    Let’s Discuss With Us <br className="hidden sm:block" /> Your Estimate.
                 </h2>
             </div>
             <a

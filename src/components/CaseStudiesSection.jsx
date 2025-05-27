@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const caseStudies = [
   {
@@ -20,24 +20,22 @@ const caseStudies = [
 
 const CaseStudiesSection = () => {
   return (
-    <section className="relative py-20 px-4 bg-blue-600 overflow-hidden">
-
+    <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-blue-600 overflow-hidden">
       <img
         src="https://i.postimg.cc/C5CKyZ38/portfolio-shape.webp"
         alt="texture"
         className="absolute inset-0 w-full h-full object-cover opacity-100 pointer-events-none select-none z-0"
         aria-hidden="true"
       />
-      <div className="max-w-6xl mx-auto relative z-10">
-        <div className="mb-8">
+      <div className="relative z-10 max-w-6xl mx-auto">
+        <div className="mb-10 text-center sm:text-left">
           <h5 className="text-blue-200 font-semibold tracking-widest uppercase mb-2 text-sm">
             Latest Case Studies
           </h5>
-          <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight mb-6">
-            Reads Our Recent <br /> Case Studies
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
+            Reads Our Recent <br className="hidden sm:block" /> Case Studies
           </h2>
-
-          <div className="flex gap-3 mt-4">
+          <div className="flex justify-center sm:justify-start gap-3 mt-4">
             <button className="w-8 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center shadow hover:bg-blue-700 transition">
               &#8592;
             </button>
@@ -47,12 +45,11 @@ const CaseStudiesSection = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {caseStudies.map((study, idx) => (
             <div
               key={idx}
-              className="relative group  overflow-hidden shadow-lg w-[320px] h-[400px] mx-auto"
-              style={{ minWidth: 320, minHeight: 400 }}
+              className="relative group overflow-hidden shadow-lg w-full max-w-sm mx-auto h-[400px]"
             >
               <img
                 src={study.image}

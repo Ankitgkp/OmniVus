@@ -65,7 +65,7 @@ const TeamSection = () => (
                     Leadership
                 </h2>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 justify-center">
                 {teamMembers.slice(0, 4).map((member, idx) => (
                     <div
                         key={idx}
@@ -75,7 +75,7 @@ const TeamSection = () => (
                             <img
                                 src={member.image}
                                 alt={member.name}
-                                className="w-full h-full object-cover object-top transition-transform duration-300"
+                                className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-110"
                             />
 
                             <div className="absolute left-0 right-0 top-[65%] flex items-center justify-center bg-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">

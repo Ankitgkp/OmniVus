@@ -41,11 +41,11 @@ const TestimonialsSection = () => (
                         key={idx}
                         className={`bg-white p-8 shadow-sm ${item.border} transition`}
                     >
-                        <p className="text-gray-600 text-m">{item.text}</p>
+                        <p className="text-gray-600 text-base">{item.text}</p>
                     </div>
                 ))}
             </div>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-30">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-12">
                 {testimonials.map((item, idx) => (
                     <div key={idx} className="flex items-center gap-4">
                         <img
