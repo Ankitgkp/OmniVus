@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from '../components/Navbar';  
+import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import ServicesSection from '../components/ServicesSection';
 import CoreFeaturesSection from '../components/CoreFeaturesSection';
 import LatestServicesSection from '../components/LatestServicesSection';
 import CaseStudiesSection from '../components/CaseStudiesSection';
+import TeamSection from '../components/TeamSection';
 
 
 const Home = () => {
@@ -12,10 +13,11 @@ const Home = () => {
         <div>
             <Navbar />
             <HeroSection />
-            <ServicesSection/>
+            <ServicesSection />
             <CoreFeaturesSection />
             <LatestServicesSection />
             <CaseStudiesSection />
+            <TeamSection />
         </div>
     );
 };
