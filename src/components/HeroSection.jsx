@@ -6,17 +6,17 @@ const HeroSection = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         <div>
           <h4 className="text-gray-600 text-sm font-medium uppercase mb-4 tracking-wider">
-            IT Business Consulting
+            Empowering Your Business
           </h4>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Best IT <span className="text-blue-700">Solutions</span> <br />
-            Provider Agency
+            Innovative IT <span className="text-blue-700">Solutions</span> <br />
+            For Modern Companies
           </h1>
           <p className="text-gray-600 mb-8 text-base max-w-xl">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis.
+            We help businesses grow and thrive with tailored technology strategies, expert guidance, and a passion for solving real-world challenges. Let’s build your digital future together.
           </p>
           <button className="bg-blue-700 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-800 transition duration-300">
-            Our Services <span className="ml-2">&#8594;</span>
+            Explore Our Services <span className="ml-2">&#8594;</span>
           </button>
         </div>
 
