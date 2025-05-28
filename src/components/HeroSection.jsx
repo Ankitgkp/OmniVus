@@ -24,7 +24,7 @@ const HeroSection = () => {
           <img
             src="https://i.postimg.cc/nLwFgs75/banner-img.webp"
             alt="Hero"
-            className="w-full max-w-md md:max-w-full h-auto object-contain rounded-3xl"
+            className="w-full max-w-lg h-auto object-contain rounded-3xl"
           />
         </div>
       </div>

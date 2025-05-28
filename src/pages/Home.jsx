@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import ServicesNavbar from '../components/ServicesNavbar';
 import HeroSection from '../components/HeroSection';
 import ServicesSection from '../components/ServicesSection';
 import CoreFeaturesSection from '../components/CoreFeaturesSection';
@@ -14,7 +14,7 @@ import Footer from '../components/Footer';
 const Home = () => {
     return (
         <div>
-            <Navbar />
+            <ServicesNavbar showContactInfo={false} />
             <HeroSection />
             <ServicesSection />
             <CoreFeaturesSection />
